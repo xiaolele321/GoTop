@@ -1,6 +1,6 @@
 # GoTop
 
-【食用方法】
+#【食用方法】
 <br>
 Download ZIP, 解压
 <br>
@@ -12,5 +12,11 @@ Download ZIP, 解压
 <br>
 如果主题模板已加载jquery，可以在插件设置内禁用加载jquery
 
+#【更新日志】
+1.0.0  项目完成
+<br>
+1.1.0  修复打开站点默认下拉的问题
 
+#【项目地址】
 
+https://lolicm.com/archives/369/
