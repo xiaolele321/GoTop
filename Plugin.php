@@ -82,7 +82,7 @@ class GoTop_Plugin implements Typecho_Plugin_Interface
     public static function footer() {
         $Options = Helper::options()->plugin('GoTop');
         $Path = Helper::options()->pluginUrl . '/GoTop/';
-        echo '<div class="back-to-top" style="top: -900px;"></div>';
+        echo '<div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -900px;"></div>';
         if (!$Options->jquery && !in_array('jquery', $Options->jquery)) {
             echo '<script type="text/javascript" src="' . $Path . 'js/jquery.min.js"></script>';
         }
