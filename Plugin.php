@@ -5,7 +5,7 @@
  * @package GoTop
  * @author Zero
  * @version 1.2.0
- * @link https://www.lolicm.com
+ * @link https://lolicm.com
  */
 
 class GoTop_Plugin implements Typecho_Plugin_Interface
@@ -34,7 +34,7 @@ class GoTop_Plugin implements Typecho_Plugin_Interface
 
     }
     
-    /**
+     /**
      * 获取插件配置面板
      * 
      * @access public
@@ -45,17 +45,17 @@ class GoTop_Plugin implements Typecho_Plugin_Interface
 
     }
     
-
-   /**
+    /**
      * 个人用户的配置面板
      * 
      * @access public
      * @param Typecho_Widget_Helper_Form $form
      * @return void
      */
-    public static function personalConfig(Typecho_Widget_Helper_Form $form) {
+    public static function personalConfig(Typecho_Widget_Helper_Form $form){
 
     }
+
 
     
     /**
@@ -79,16 +79,9 @@ class GoTop_Plugin implements Typecho_Plugin_Interface
      * @return unknown
      */
     public static function footer() {
-        $Options = Helper::options()->plugin('GoTop');
         $Path = Helper::options()->pluginUrl . '/GoTop/';
         echo '<div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -900px;"></div>';
-        if (!$Options->jquery && !in_array('jquery', $Options->jquery)) {
-            echo '<script type="text/javascript" src="' . $Path . 'js/jquery.min.js"></script>';
-        }
         echo '<script type="text/javascript" src="' . $Path . 'js/szgotop.js"></script>';
     }
+
 }
-
-
-
-
