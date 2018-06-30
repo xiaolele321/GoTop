@@ -4,8 +4,8 @@
  *
  * @package GoTop
  * @author Zero
- * @version 1.2.0
- * @link https://lolicm.com
+ * @version 1.2.4
+ * @link https://mikuac.com/archives/369/
  */
 
 class GoTop_Plugin implements Typecho_Plugin_Interface
