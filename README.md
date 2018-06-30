@@ -21,4 +21,4 @@ Download ZIP, 解压
 
 #【项目地址】
 
-https://lolicm.com/archives/369/
+https://mikuac.com/archives/369/
