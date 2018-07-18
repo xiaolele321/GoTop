@@ -9,8 +9,6 @@ Download ZIP, 解压
 上传至usr/plugins目录
 <br>
 登录后台启用即可
-<br>
-如果主题模板已加载jquery，可以在插件设置内禁用加载jquery
 
 #【更新日志】
 1.0.0  项目完成
